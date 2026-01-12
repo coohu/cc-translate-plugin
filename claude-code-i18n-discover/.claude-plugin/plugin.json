@@ -1,0 +1,14 @@
+{
+  "name": "i18n-discover",
+  "version": "1.0.0",
+  "description": "以本地语言展示插件市场 (Translate plugin marketplace descriptions based on settings)",
+  "author": {
+    "name": "Developer"
+  },
+  "commands": [
+    "./commands/discover-i18n.md"
+  ],
+  "permissions": {
+    "filesystem": ["read"]
+  }
+}
