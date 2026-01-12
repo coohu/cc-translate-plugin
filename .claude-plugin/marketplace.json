@@ -1,0 +1,34 @@
+{
+  "name": "swe-marketplace",
+  "owner": {
+    "name": "ShengSuanYun",
+    "email": "ssy@gmail.com",
+    "url": "https://github.com/coohu/cc-translate-plugin"
+  },
+  "metadata": {
+    "description": "Production-ready Claude Code context engineering toolkit with agents, skills, templates, and patterns for building AI workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "i18n-discover",
+      "source": "./plugins/i18n-discover",
+      "description": "以本地语言展示插件市场 (Translate plugin marketplace descriptions based on settings)",
+      "version": "1.0.0",
+      "author": {
+        "name": "ShengSuanYun",
+        "email": "ssy@gmail.com",
+        "url": "https://github.com/coohu"
+      },
+      "homepage": "https://github.com/coohu/cc-translate-plugin",
+      "repository": "https://github.com/coohu/cc-translate-plugin",
+      "license": "MIT",
+      "commands": [
+        "./commands/discover-i18n.md"
+      ],
+      "permissions": {
+        "filesystem": ["read"]
+      }
+    }
+  ]
+}
